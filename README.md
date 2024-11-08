@@ -16,7 +16,7 @@ Wir entwickeln einen Peer to Peer Applikation, in dem kann man anderen Geräten 
 | 1    | Funktional     | Die Applikation soll es Nutzern ermöglichen, Dateien zwischen verschiedenen Geräten zu senden. |
 | 2    | Funktional     | Die Applikation soll sicherstellen, dass nur autorisierte Geräte auf die gesendeten Dateien zugreifen können. |
 | 3    | Funktional     | Die Applikation soll es Nutzern ermöglichen, mehrere Dateien gleichzeitig zu senden. |
-| 4    | Funktional     | Die Applikation soll verschiedene Dateitypen (z. B. Bilder, Videos, Dokumente) unterstützen. |
+| 4    | Funktional     | Die Applikation soll verschiedene Dateitypen (Bilder, Videos, Dokumente) unterstützen. |
 | 5    | Qualitativ     | Die Applikation soll eine benutzerfreundliche Oberfläche zur Auswahl und zum Senden von Dateien bieten. |
 | 6    | Funktional     | Die Applikation soll es ermöglichen, Dateien nur an bestimmte Geräte zu senden. |
 | 7    | Funktional     | Die Applikation soll eine Möglichkeit bieten, gesendete Dateien zu empfangen und zu speichern. |
