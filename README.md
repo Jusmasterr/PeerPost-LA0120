@@ -29,21 +29,50 @@ Wir entwickeln einen Peer to Peer Applikation, in dem kann man anderen Geräten 
 | 14   | Randbedingung | Die Applikation muss sicherstellen, dass die Dateiübertragung auch bei großen Dateien ohne Datenverlust oder Fehler erfolgt. |
 
 
+### 1.1 User Stories
+
 ### User Stories
 
-| US-№ | Verbindlichkeit | Typ        | Beschreibung                                                                                                                                                  |
-| ---- | --------------- | ---------- | ----------------------------------------------------------------------------- |
-| 1.1    | Muss            | Qualität | Als User möchte ich ein selbsterklärendes und übersichtliches GUI, damit ich mich einfach zurecht finden kann.                                                          |
-| 1.2    | Muss            | Qualität | Als User möchte ich ein modernes GUI haben, um meine User-Experience ertragbar zu machen.                                                                    |
-| 2.1    | Muss            | Funktional | Als User möchte ich die einzelnen Räume meines Smarthomes erfassen können, um meine Geräte zu erfassen.                                                                        |
-| 3.1    | Muss            | Funktional | Als User möchte ich Geräte innerhalb eines Raums mit Namen und Typ erfassen können, um diese anzusteuern.                                            |
-| 3.2    | Muss            | Funktional | Als User möchte ich die Möglichkeit haben, Lichter, Heizungen und Storen als Geräte erfassen zu können, um diese anzusteuern.                                         |
-| 4.1    | Muss            | Funktional | Als User möchte ich die Daten der Geräte und Räume bearbeiten können, um die Daten aktuell zu halten.                                            |
-| 4.2    | Muss            | Funktional | Als User möchte ich Geräte und Räume aus dem System entfernen können, um keine überflüssigen Elemente zu haben. |
-| 4.3    | Muss            | Funktional | Als User möchte ich, dass die Daten der Geräte und Räume gespeichert werden, um das System wiederverwendbar zu machen.            |
-| 5.1    | Muss            | Funktional | Als User möchte ich Lichter an- und ausschalten können, um das Licht an- und ausschalten zu können.                                             |
-| 5.2    | Muss            | Funktional | Als User möchte ich die Temperatur der Heizungen anpassen können, um im Winter nicht zu erfrieren.                                             |
-| 5.3    | Kann            | Funktional | Als User möchte ich die Storen hoch- und runterlassen können und Sie anwinkeln, um zu kontrolieren wie viel Lich ins Haus kommt.                                        |
+| US-№  | An-№ | Verbindlichkeit | Beschreibung                                                                 |
+| ----- | ---- | ---------------- | ---------------------------------------------------------------------------- |
+| 1.1   | 1    | muss             | Als User möchte ich Dateien zwischen verschiedenen Geräten senden können, damit ich Daten problemlos austauschen kann. |
+| 2.1   | 2    | muss             | Als User möchte ich sicherstellen, dass nur autorisierte Geräte auf die gesendeten Dateien zugreifen können, damit meine Daten geschützt sind. |
+| 3.1   | 3    | muss             | Als User möchte ich mehrere Dateien gleichzeitig senden können, damit ich meine Aufgaben effizienter erledigen kann. |
+| 4.1   | 4    | muss             | Als User möchte ich verschiedene Dateitypen (z. B. Bilder, Videos, Dokumente) senden können, um flexibel in der Dateiübertragung zu sein. |
+| 5.1   | 5    | muss             | Als User möchte ich eine benutzerfreundliche Oberfläche haben, damit ich Dateien einfach auswählen und senden kann. |
+| 6.1   | 6    | muss             | Als User möchte ich die Möglichkeit haben, Dateien nur an bestimmte Geräte zu senden, damit ich die Kontrolle über den Empfänger behalte. |
+| 7.1   | 7    | muss             | Als User möchte ich gesendete Dateien empfangen und speichern können, um sie später wieder zu verwenden oder zu bearbeiten. |
+| 8.1   | 8    | muss             | Als User möchte ich, dass die Applikation eine geringe Latenz und schnelle Übertragungsraten bietet, damit der Dateiübertragungsprozess schnell und effizient ist. |
+| 9.1   | 9    | muss             | Als User möchte ich, dass die Applikation zuverlässig funktioniert, auch bei Verbindungsabbrüchen oder Netzwerkproblemen, damit die Dateiübertragung nicht unnötig unterbrochen wird. |
+| 10.1  | 10   | muss             | Als User möchte ich eine benutzerfreundliche und intuitive Oberfläche haben, die es mir ermöglicht, die Applikation ohne Vorkenntnisse zu nutzen. |
+| 11.1  | 11   | muss             | Als User möchte ich sicherstellen, dass die Applikation eine funktionierende Internetverbindung erfordert, damit die Dateiübertragung ohne Probleme erfolgt. |
+| 12.1  | 12   | muss             | Als User möchte ich, dass alle Dateiübertragungen mit einer Ende-zu-Ende-Verschlüsselung gesichert sind, um die Vertraulichkeit meiner Daten zu wahren. |
+| 13.1  | 13   | muss             | Als User möchte ich, dass die Applikation eine sichere Verbindung für die Kommunikation zwischen den Geräten verwendet, damit meine Daten nicht abgehört werden können. |
+| 14.1  | 14   | muss             | Als User möchte ich, dass auch große Dateien sicher und ohne Fehler übertragen werden, damit ich keine Daten verliere. |
+
+
+## 2. Planen
+
+### 2.1 Arbeitspakete
+
+| AP-№  | Zuständig  | Frist       | Beschreibung                                                                | Geplante Zeit |
+| ----- | ---------- | ----------- | --------------------------------------------------------------------------- | ------------- |
+| 1     | Jeanneret  | 8.11.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
+| 2     | Jeanneret  | 8.11.24     | Anforderungen und User-storeis schreiben.                                   | 60 min        |
+| 3     | Jeanneret  | 8.11.24     | Arbeitspakete und Testfälle schreiben.                                      | 60 min        |
+| 4     | Meister    | 8.11.24     | Herausfinden wie man Pythonscripts in eine C# Applikation implementieren kann.| 180 min        |
+| 5     | alle       | 15.11.24    | Implentierung des C# codes.                                                 | 180 min       |
+| 6     | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
+| 7     | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
+| 8     | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
+| 9     | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
+| 10    | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
+| 11    | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
+| 12    | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
+| 13    | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
+| 14    | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
+| 15    | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
+
 
 ### Testfälle
 
