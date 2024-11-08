@@ -24,9 +24,8 @@ Wir entwickeln einen Peer to Peer Applikation, in dem kann man anderen Geräten 
 | 9    | Qualitativ     | Die Applikation soll eine hohe Zuverlässigkeit aufweisen und nur bei Netzwerkausfällen oder Verbindungsabbrüchen abbrechen. |
 | 10   | Qualitativ     | Die Applikation soll eine benutzerfreundliche und intuitive Oberfläche haben, die eine einfache Bedienung für alle Altersgruppen ermöglicht. |
 | 11   | Randbedingung | Die Applikation muss eine funktionierende Internetverbindung erfordern, um Dateien zu übertragen. |
-| 12   | Randbedingung | Die Applikation muss sicherstellen, dass alle Dateiübertragungen mit einer Ende-zu-Ende-Verschlüsselung geschützt sind. |
-| 13   | Randbedingung | Die Applikation muss eine sichere Verbindung für die Kommunikation zwischen den Geräten gewährleisten. |
-| 14   | Randbedingung | Die Applikation muss sicherstellen, dass die Dateiübertragung auch bei großen Dateien ohne Datenverlust oder Fehler erfolgt. |
+| 12   | Randbedingung | Die Applikation muss eine sichere Verbindung für die Kommunikation zwischen den Geräten gewährleisten. |
+| 13   | Randbedingung | Die Applikation muss sicherstellen, dass die Dateiübertragung auch bei großen Dateien ohne Datenverlust oder Fehler erfolgt. |
 
 
 ### 1.1 User Stories
@@ -46,9 +45,8 @@ Wir entwickeln einen Peer to Peer Applikation, in dem kann man anderen Geräten 
 | 9.1   | 9    | muss             | Als User möchte ich, dass die Applikation zuverlässig funktioniert, auch bei Verbindungsabbrüchen oder Netzwerkproblemen, damit die Dateiübertragung nicht unnötig unterbrochen wird. |
 | 10.1  | 10   | muss             | Als User möchte ich eine benutzerfreundliche und intuitive Oberfläche haben, die es mir ermöglicht, die Applikation ohne Vorkenntnisse zu nutzen. |
 | 11.1  | 11   | muss             | Als User möchte ich sicherstellen, dass die Applikation eine funktionierende Internetverbindung erfordert, damit die Dateiübertragung ohne Probleme erfolgt. |
-| 12.1  | 12   | muss             | Als User möchte ich, dass alle Dateiübertragungen mit einer Ende-zu-Ende-Verschlüsselung gesichert sind, um die Vertraulichkeit meiner Daten zu wahren. |
-| 13.1  | 13   | muss             | Als User möchte ich, dass die Applikation eine sichere Verbindung für die Kommunikation zwischen den Geräten verwendet, damit meine Daten nicht abgehört werden können. |
-| 14.1  | 14   | muss             | Als User möchte ich, dass auch große Dateien sicher und ohne Fehler übertragen werden, damit ich keine Daten verliere. |
+| 12.1  | 13   | muss             | Als User möchte ich, dass die Applikation eine sichere Verbindung für die Kommunikation zwischen den Geräten verwendet, damit meine Daten nicht abgehört werden können. |
+| 13.1  | 14   | muss             | Als User möchte ich, dass auch große Dateien sicher und ohne Fehler übertragen werden, damit ich keine Daten verliere. |
 
 
 ## 2. Planen
