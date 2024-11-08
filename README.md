@@ -6,16 +6,27 @@
 
 Gruppe: Luca Jeaneret, Justus Meister
 
-Wir entwickeln ein Steuerungssystem mit welchem man verschiedene Geräte in einem Smarthome wie Lichter, Storen usw. ansteuern kann. Die Geräte werden debei simuliert und sind nicht wirklich vorhanden.
+Wir entwickeln einen Peer to Peer Applikation, in dem kann man anderen Geräten Dateien senden durch die Applikation. 
 
-### Anforderungen
-| A-№ |  Beschreibung                                                                                                                                                  |
-| ---- | ------------------------------------------------------------------------------------ |
-| 1    | Übersichtliches und modernes GUI                                                        |
-| 2    |     Erfassen neuer Räume im Smarthome                                                                   |
-|  3   |     Erfassen von Geräten innerhalb eines Raums im Smarthome                                                                  |
-|   4  |     Bearbeiten und Speichern der verschiedenen Räume und Geräte                                                                   |
-|  5   |      Ansteuern der verschiedenen erfassten Geräte                                                                  |
+## 1. Informieren 
+
+### 1.1 Anforderungen
+| An-№ | Typ            | Beschreibung                                                                     |
+| ---- | -------------- | --------------------------------------------------------------------------------- |
+| 1    | Funktional     | Die Applikation soll es Nutzern ermöglichen, Dateien zwischen verschiedenen Geräten zu senden. |
+| 2    | Funktional     | Die Applikation soll sicherstellen, dass nur autorisierte Geräte auf die gesendeten Dateien zugreifen können. |
+| 3    | Funktional     | Die Applikation soll es Nutzern ermöglichen, mehrere Dateien gleichzeitig zu senden. |
+| 4    | Funktional     | Die Applikation soll verschiedene Dateitypen (z. B. Bilder, Videos, Dokumente) unterstützen. |
+| 5    | Qualitativ     | Die Applikation soll eine benutzerfreundliche Oberfläche zur Auswahl und zum Senden von Dateien bieten. |
+| 6    | Funktional     | Die Applikation soll es ermöglichen, Dateien nur an bestimmte Geräte zu senden. |
+| 7    | Funktional     | Die Applikation soll eine Möglichkeit bieten, gesendete Dateien zu empfangen und zu speichern. |
+| 8    | Qualitativ    | Die Applikation soll eine geringe Latenz und schnelle Übertragungsraten bieten, auch bei größeren Dateien. |
+| 9    | Qualitativ     | Die Applikation soll eine hohe Zuverlässigkeit aufweisen und nur bei Netzwerkausfällen oder Verbindungsabbrüchen abbrechen. |
+| 10   | Qualitativ     | Die Applikation soll eine benutzerfreundliche und intuitive Oberfläche haben, die eine einfache Bedienung für alle Altersgruppen ermöglicht. |
+| 11   | Randbedingung | Die Applikation muss eine funktionierende Internetverbindung erfordern, um Dateien zu übertragen. |
+| 12   | Randbedingung | Die Applikation muss sicherstellen, dass alle Dateiübertragungen mit einer Ende-zu-Ende-Verschlüsselung geschützt sind. |
+| 13   | Randbedingung | Die Applikation muss eine sichere Verbindung für die Kommunikation zwischen den Geräten gewährleisten. |
+| 14   | Randbedingung | Die Applikation muss sicherstellen, dass die Dateiübertragung auch bei großen Dateien ohne Datenverlust oder Fehler erfolgt. |
 
 
 ### User Stories
