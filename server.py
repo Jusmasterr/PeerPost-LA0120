@@ -1,8 +1,7 @@
 import socket
-import os
+import socket
 
-# Server-Konfiguration
-HOST = "0.0.0.0"  # Akzeptiert Verbindungen von allen IPs
+HOST = "0.0.0.0"  # Server akzeptiert Verbindungen von allen IPs
 PORT = 5001       # Port für die Dateiübertragung
 
 def start_server():
@@ -14,11 +13,12 @@ def start_server():
         conn, addr = server_socket.accept()
         print(f"Verbindung hergestellt mit {addr}")
         
-        # Datei empfangen
-        file_name = conn.recv(1024).decode()
-        file_size = int(conn.recv(1024).decode())
+        # Dateiname und Dateigröße empfangen
+        file_name = conn.recv(100).decode().strip()  # Erst 100 Bytes für den Dateinamen
+        file_size = int(conn.recv(10).decode().strip())  # Dann 10 Bytes für die Dateigröße
         print(f"Empfange Datei: {file_name} ({file_size} Bytes)")
         
+        # Datei empfangen
         with open(file_name, "wb") as file:
             received_data = 0
             while received_data < file_size:

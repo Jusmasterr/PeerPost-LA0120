@@ -2,7 +2,6 @@ import socket
 import os
 from tkinter import Tk, filedialog
 
-# Server-Konfiguration
 SERVER_HOST = "127.0.0.1"  # IP des Servers
 SERVER_PORT = 5001         # Port des Servers
 
@@ -14,9 +13,9 @@ def send_file(file_path):
         client_socket.connect((SERVER_HOST, SERVER_PORT))
         print(f"Verbunden mit {SERVER_HOST}:{SERVER_PORT}")
         
-        # Dateiinfo senden
-        client_socket.send(file_name.encode())
-        client_socket.send(str(file_size).encode())
+        # Dateiinfo senden (100 Byte für Dateiname, 10 Byte für Dateigröße)
+        client_socket.send(f"{file_name:<100}".encode())  # Name auf 100 Zeichen auffüllen
+        client_socket.send(f"{file_size:<10}".encode())  # Größe auf 10 Zeichen auffüllen
         
         # Datei senden
         with open(file_path, "rb") as file:
@@ -26,7 +25,6 @@ def send_file(file_path):
         print(f"Datei {file_name} erfolgreich gesendet.")
 
 def select_file_and_send():
-    # Datei-Auswahl GUI
     root = Tk()
     root.withdraw()  # Hauptfenster verstecken
     file_path = filedialog.askopenfilename()
@@ -35,3 +33,4 @@ def select_file_and_send():
 
 if __name__ == "__main__":
     select_file_and_send()
+
