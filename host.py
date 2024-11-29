@@ -1,7 +1,7 @@
 import socket
 import os
 
-def start_listener_peer(host='10.1.21.77', port=80):
+def start_listener_peer(host='0.0.0.0', port=80):
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.bind((host, port))
     server_socket.listen(1)
@@ -22,7 +22,6 @@ def start_listener_peer(host='10.1.21.77', port=80):
                     file_size = int(conn.recv(10).decode().strip())
                     print(f"Receiving file: {file_name} ({file_size} bytes)")
 
-                    # Datei speichern
                     with open(file_name, "wb") as file:
                         received_data = 0
                         while received_data < file_size:
