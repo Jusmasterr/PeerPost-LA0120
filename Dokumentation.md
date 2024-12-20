@@ -58,93 +58,17 @@ Wir entwickeln einen Peer to Peer Applikation, in dem kann man anderen Geräten 
 | 1     | Jeanneret  | 8.11.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
 | 2     | Jeanneret  | 8.11.24     | Anforderungen und User-storeis schreiben.                                   | 60 min        |
 | 3     | Jeanneret  | 8.11.24     | Arbeitspakete und Testfälle schreiben.                                      | 60 min        |
-| 4     | Meister    | 8.11.24     | Herausfinden wie man Pythonscripts in eine C# Applikation implementieren kann.| 180 min        |
-| 5     | alle       | 15.11.24    | Implentierung des C# codes.                                                 | 180 min       |
-| 6     | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
-| 7     | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
-| 8     | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
-| 9     | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
-| 10    | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
-| 11    | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
-| 12    | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
-| 13    | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
-| 14    | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
-| 15    | Jeanneret  | 23.8.24     | Erstellung des Projektantrag und Festlegung der Meilensteine/Ziele.         | 90 min        |
+| 4     | Meister    | 8.11.24     | Herausfinden wie man Pythonscripts in eine C# Applikation implementieren kann.| 180 min     |
+| 5     | alle       | 15.11.24    | Host Script schreiben.                                                      | 180 min       |
+| 6     | alle       | 22.11.24    | Client Script schreiben.                                                    | 180 min       |
+| 7     | alle       | 29.11/6.12.24| Intergration der Scripts in C#                                             | 360 min       |
+| 8     | alle       | 13.12.24    | Frontend machen                                                             | 180 min       |
+| 9     | alle       | 20.12.24    | Programm Testen                                                             | 60 min        |
+| 10    | alle       | 20.12.24    | Portfolio schreiben.                                                        | 120 min       |
 
 
 ### Testfälle
 
-#### TC-№: 2.1.1
-Beschreibung: Räume erfassen
-Ausgangslage: Programm gestartet
-Eingabe: 1. Button(Raumerfassung) gedrückt | 2. Raum benannt | 3. Button(Erfassen) gedrückt
-Ausgaabe: 4. Raum mit gewähltem Namen erstellt
-
-#### TC-№: 2.1.2
-Beschreibung: Räume erfassen
-Ausgangslage: Programm gestartet
-Eingabe: 1. Button(Raumerfassung) gedrückt | 2. Raum benannt | 3. Button(Abbrechen) gedrückt
-Ausgaabe: 4. Erfassen des Raums abgebrochen
-
-#### TC-№: 3.1.1
-Beschreibung: Geräte erfassen
-Ausgangslage: Raum ausgewählt
-Eingabe: 1. Button(Geräterfassung) gedrückt | 2. Gerätetyp ausgewählt | 3. Gerät benannt | 4. Button(Erfassen) gedrückt
-Ausgaabe: 5. Gerät mit gewähltem Typ und Namen erstellt.
-
-#### TC-№: 3.1.2
-Beschreibung: Geräte erfassen
-Ausgangslage: Raum ausgewählt
-Eingabe: 1. Button(Geräterfassung) gedrückt | 2. Gerätetyp ausgewählt | 3. Gerät benannt | 4. Button(Abbrechen) gedrückt
-Ausgaabe: 5. Erfassen des geräts abbgebrochen.
-
-#### TC-№: 4.1.1
-Beschreibung: Räume bearbeiten
-Ausgangslage: Raum ausgewählt
-Eingabe: 1. Button(Bearbeiten) gedrückt | 2. Namen geändert | 3. Button(Speichern) gedrückt
-Ausgaabe: 4. Name des gewählten Raums aktialisiert
-
-#### TC-№: 4.1.2
-Beschreibung: Geräte bearbeiten
-Ausgangslage: Gerät ausgewählt
-Eingabe: 1. Button(Bearbeiten) gedrückt | 2. Namen geändert | 3. Typ geaändert | 4. Button(Speichern) gedrückt
-Ausgaabe: 5. Name und Typ des gewählten Geräts aktialisiert
-
-#### TC-№: 4.2.1
-Beschreibung: Räume entfernen
-Ausgangslage: Raum ausgewählt
-Eingabe: 1. Button(Entfernen) gedrückt | 2. Entfernen bestätigt
-Ausgaabe: 4. Raum entfernt
-
-#### TC-№: 4.2.2
-Beschreibung: Geräte entfernen
-Ausgangslage: Gerät ausgewählt
-Eingabe: 1. Button(Entfernen) gedrückt | 2. Entfernen bestätigt
-Ausgaabe: 3. Gerät entfernt
-
-#### TC-№: 4.3.1
-Beschreibung: Räume und Geräte speichern
-Ausgangslage: Programm neugestartet
-Eingabe: 2. Raum ausgewählt
-Ausgaabe: 1. zuvor erstellte Räume ersichtlich | 3. zuvor erstellte Geräte ersichtlich
-
-#### TC-№: 5.1.1
-Beschreibung: Licht an/aus
-Ausgangslage: Gerät vom Typ Licht ausgewählt (Licht aus)
-Eingabe: 1. Button(Licht an) gedrückt | 3. Button(Licht aus) gedrückt
-Ausgaabe: 2. Licht geht an | 4. Licht geht aus
-
-#### TC-№: 5.2.1
-Beschreibung: Heizung bedienen
-Ausgangslage: Gerät vom Typ heizung ausgewählt (Temperatur: 18°)
-Eingabe: 1. Slider(Temperatur) drei Stellen nach oben | 3. Slider(Temperatur) eine Stelle nach unten
-Ausgaabe: 2. (Temperatur: 21°) | 4. (Temperatur: 20°)
-
-#### TC-№: 5.2.1
-Beschreibung: Storen bedienen
-Ausgangslage: Gerät vom Typ Storen ausgewählt (Position: oben)
-Eingabe: 1. Button(Runter) gedrückt | 3. Button(Anwinkeln) gedrückt | 5. Button(Hoch) gedrückt
-Ausgaabe: 2. (Position: unten) | 4. (Position: angewinkelt) | 6. (Position: oben)
 
 
 ### Planen
