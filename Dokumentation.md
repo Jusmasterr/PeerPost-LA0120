@@ -46,7 +46,7 @@ Wir entwickeln einen Peer to Peer Applikation, in dem kann man anderen Geräten 
 | 10.1  | 10   | muss             | Als User möchte ich eine benutzerfreundliche und intuitive Oberfläche haben, die es mir ermöglicht, die Applikation ohne Vorkenntnisse zu nutzen. |
 | 11.1  | 11   | muss             | Als User möchte ich sicherstellen, dass die Applikation eine funktionierende Internetverbindung erfordert, damit die Dateiübertragung ohne Probleme erfolgt. |
 | 12.1  | 13   | muss             | Als User möchte ich, dass die Applikation eine sichere Verbindung für die Kommunikation zwischen den Geräten verwendet, damit meine Daten nicht abgehört werden können. |
-| 13.1  | 14   | muss             | Als User möchte ich, dass auch große Dateien sicher und ohne Fehler übertragen werden, damit ich keine Daten verliere. |
+| 13.1  | 14   | muss             | Als User möchte ich, dass auch grosse Dateien sicher und ohne Fehler übertragen werden, damit ich keine Daten verliere. |
 
 
 ## 2. Planen
