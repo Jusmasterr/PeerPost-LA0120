@@ -20,12 +20,12 @@ Wir entwickeln einen Peer to Peer Applikation, in dem kann man anderen Geräten 
 | 5    | Qualitativ     | Die Applikation soll eine benutzerfreundliche Oberfläche zur Auswahl und zum Senden von Dateien bieten. |
 | 6    | Funktional     | Die Applikation soll es ermöglichen, Dateien nur an bestimmte Geräte zu senden. |
 | 7    | Funktional     | Die Applikation soll eine Möglichkeit bieten, gesendete Dateien zu empfangen und zu speichern. |
-| 8    | Qualitativ    | Die Applikation soll eine geringe Latenz und schnelle Übertragungsraten bieten, auch bei größeren Dateien. |
+| 8    | Qualitativ     | Die Applikation soll eine geringe Latenz und schnelle Übertragungsraten bieten, auch bei grösseren Dateien. |
 | 9    | Qualitativ     | Die Applikation soll eine hohe Zuverlässigkeit aufweisen und nur bei Netzwerkausfällen oder Verbindungsabbrüchen abbrechen. |
 | 10   | Qualitativ     | Die Applikation soll eine benutzerfreundliche und intuitive Oberfläche haben, die eine einfache Bedienung für alle Altersgruppen ermöglicht. |
 | 11   | Randbedingung | Die Applikation muss eine funktionierende Internetverbindung erfordern, um Dateien zu übertragen. |
 | 12   | Randbedingung | Die Applikation muss eine sichere Verbindung für die Kommunikation zwischen den Geräten gewährleisten. |
-| 13   | Randbedingung | Die Applikation muss sicherstellen, dass die Dateiübertragung auch bei großen Dateien ohne Datenverlust oder Fehler erfolgt. |
+| 13   | Randbedingung | Die Applikation muss sicherstellen, dass die Dateiübertragung auch bei grossen Dateien ohne Datenverlust oder Fehler erfolgt. |
 
 
 ### 1.1 User Stories
@@ -64,61 +64,65 @@ Wir entwickeln einen Peer to Peer Applikation, in dem kann man anderen Geräten 
 | 7     | alle       | 29.11/6.12.24| Intergration der Scripts in C#                                             | 360 min       |
 | 8     | alle       | 13.12.24    | Frontend machen                                                             | 180 min       |
 | 9     | alle       | 20.12.24    | Programm Testen                                                             | 60 min        |
-| 10    | alle       | 20.12.24    | Portfolio schreiben.                                                        | 120 min       |
+| 10    | Individuel | 20.12.24    | Portfolio schreiben.                                                        | 120 min       |
 
 
-### Testfälle
+### 2.2 Testfälle
+
+| TC-№ | Ausgangslage                      | Eingabe                                               | Erwartete Ausgabe                                               |
+| ---- | --------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------- |
+| 1.1  | PC ist gestartet                  | Applikation öffnen                                    | Applikation öffnet sich.                                         |
+| 2.1  | Applikation gestartet             | Host auswählen                                        | Host ausgewählt und läuft.                                       |
+| 3.1  | Applikation anders gestartet      | Client auswählen                                      | Client ausgewählt und läuft.                                     |
+| 4.1  | Client gestartet und läuft        | Nachricht senden auswählen                            | Nachricht kann gesendet werden.                                  |
+| 4.2  | Nachricht senden ausgewählt       | Nachricht schreiben und senden                        | Host erhält die Nachricht.                                       |
+| 5.1  | Client gestartet und läuft        | Datei senden auswählen                                | Datei kann gesendet werden.                                      |
+| 5.2  | Datei senden ausgewählt           | Datei auswählen und senden                            | Host erhält Datei.                                                |
+
+
+## 3. Entscheiden
+
+### 3.1 Entscheiden
+
+Wir haben uns entschieden das man nur einfache Dateien und Nachrichten senden kann, weil wir nicht so viel Zeit haben.
+
+## 4. Realisieren
+
+### 4.1 Realisieren
+
+| AP-№ | Datum     | Zuständig        | geplante Zeit | tatsächliche Zeit |
+| ---- | --------- | ---------------- | ------------- | ----------------- |
+| 1    | 8.11.24   | Jeanneret        | 90 min        |      90 min       |
+| 2    | 8.11.24   | Jeanneret        | 60 min        |      60 min       |
+| 3    | 8.11.24   | Jeanneret        | 60 min        |      60 min       |
+| 4    | 8.11.24   | Meister          | 180 min       |      180 min      |
+| 5    | 15.11.24  | alle             | 180 min       |      180 min      |
+| 6    | 22.11.24  | alle             | 180 min       |      180 min      |
+| 7    | 29.11/ 6/13.12.24  | alle             | 360 min       |      440 min      |
+| 8    | 13.12.24   | alle             | 180 min       |        0 min      |
+| 9    | 20.12.24  | alle             | 60 min        |       90 min      |
+| 10   | 20.12.24  | Individuel       | 120 min       |      120 min      |
+
+
+## 5 Testen
+
+### 5.1 Testprotokoll
+
+| TC-№   | Datum      | Resultat | Tester        | Bemerkung |
+| ------ | ---------- | -------- | ------------- | --------- |
+| 1.1    | 20.12.2024 | OK       | Jeanneret     |           |
+| 2.1    | 20.12.2024 | NOK      | Jeanneret     | Applikation kann nicht auf dem Python Script zugreifen. Aber man kann das Script selber starten. |
+| 3.1    | 20.12.2024 | NOK      | Jeanneret     | Applikation kann nicht auf dem Python Script zugreifen. Aber man kann das Script selber starten. |
+| 4.1    | 20.12.2024 | OK       | Jeanneret     |           |
+| 4.2    | 20.12.2024 | OK       | Jeanneret     |           |
+| 5.1    | 20.12.2024 | OK       | Jeanneret     |           |
+| 5.2    | 20.12.2024 | OK       | Jeanneret     |           |
 
 
 
-### Planen
 
-| AP-№ | Datum      | Arbeitspaket                                           | Verantwortliche Person                      |
-| ---- | ---------- | ------------------------------------------------------ | ------------------------------------------- |
-| 1    | 23.08.2024 | Projekt Idee wählen                                    | Fabian Meyer, Justus Meister                |
-| 2    | 23.08.2024 | Anforderungen, Userstories, Testfälle schreiben        | Justus Meister                              |
-| 3    | 23.08.2024 | Vertrautmachen mit WPF       | Justus Meister, Fabian Meyer                           |
-| 4    | 30.08.2024 | Erstellen des MainGrids für das GUI        | Justus Meister                              |
-| 5    | 30.08.2024 | Erstellen und designen der Buttons        | Fabian Meyer                              |
-| 6    | 06.09.2024 | Erstellen und designen der Navigationsleisten        | Justus Meister        |
-| 7    | 13.09.2024 | Erstellen der Funktion fürs Hinzufügen vo Räumen        | Justus Meister        |
-| 8    | 13.09.2024 | Erstellen der Funktion fürs Hinzufügen vo Räumen        | Justus Meister        |
-| 9    | 20.09.2024 | Erstellen der Funktion fürs bedienen der Geräte       | Justus Meister        |
-| 10    | 20.09.2024 | Feinschliff des Codes und Design       | Justus Meister        |
+### 5.2 Testbericht
 
-
-### Realisieren
-
-| AP-№ | Datum      | Durchgeführt von...  in... min                                           |
-| ---- | ---------- | ------------------------------------------------------ |
-| 1    | 23.08.2024 | Justus Meister, Fabian Meyer (15min)                   |
-| 2    | 23.08.2024 | Justus Meister (90min)                   |
-| 3    | 23.08.2024 | Justus Meister, Fabian Meyer (90min)                   |
-| 4    | 30.08.2024 | Justus Meister (50min)                   |
-| 5    | 30.08.2024 | Fabian Meyer (30min)                   |
-| 6    | 06.09.2024 | Justus Meister (60min)                   |
-| 7    | 13.09.2024 | Justus Meister (80min)                   |
-| 8    | 13.09.2024 | Justus Meister (90min)                  |
-| 9    | 20.09.2024 | Justus Meister (80min)                  |
-
-
-
-### Testprotokoll
-
-| TC-№   | Datum      | Resultat | Tester        |
-| ------ | ---------- | -------- | ------------- |
-| 2.1.1  | 01.11.2024 | OK       | Justus Meister |
-| 2.1.2  | 01.11.2024 | OK       | Justus Meister |
-| 3.1.1  | 01.11.2024 | OK       | Justus Meister |
-| 3.1.2  | 01.11.2024 | OK       | Justus Meister |
-| 4.1.1  | 01.11.2024 | NOK       | Justus Meister |
-| 4.1.2  | 01.11.2024 | NOK       | Justus Meister |
-| 4.2.1  | 01.11.2024 | NOK       | Justus Meister |
-| 4.2.2  | 01.11.2024 | NOK       | Justus Meister |
-| 4.3.1  | 01.11.2024 | NOK       | Justus Meister |
-
-
-
-### Testbericht
-
-Die Grundfunktionen funktionieren, jedoch funktionieren ein paar Funktionen nicht.
+Das Programm läuft nicht wie erwünscht. Irgendetwas ging bei der Integration des C#-Codes schief.
+Die Skripte funktionieren wie geplant und wurden erfolgreich getestet.
+Der nächste Schritt ist, die Anwendung zu reparieren, damit sie veröffentlicht werden kann.
