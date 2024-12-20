@@ -16,7 +16,7 @@ Wir entwickeln einen Peer to Peer Applikation, in dem kann man anderen Geräten 
 | 1    | Funktional     | Die Applikation soll es Nutzern ermöglichen, Dateien zwischen verschiedenen Geräten zu senden. |
 | 2    | Funktional     | Die Applikation soll sicherstellen, dass nur autorisierte Geräte auf die gesendeten Dateien zugreifen können. |
 | 3    | Funktional     | Die Applikation soll es Nutzern ermöglichen, mehrere Dateien gleichzeitig zu senden. |
-| 4    | Funktional     | Die Applikation soll verschiedene Dateitypen (Bilder, Videos, Dokumente) unterstützen. |
+| 4    | Funktional     | Die Applikation soll verschiedene Dateitypen (Bilder, Dokumente) unterstützen. |
 | 5    | Qualitativ     | Die Applikation soll eine benutzerfreundliche Oberfläche zur Auswahl und zum Senden von Dateien bieten. |
 | 6    | Funktional     | Die Applikation soll es ermöglichen, Dateien nur an bestimmte Geräte zu senden. |
 | 7    | Funktional     | Die Applikation soll eine Möglichkeit bieten, gesendete Dateien zu empfangen und zu speichern. |
@@ -37,7 +37,7 @@ Wir entwickeln einen Peer to Peer Applikation, in dem kann man anderen Geräten 
 | 1.1   | 1    | muss             | Als User möchte ich Dateien zwischen verschiedenen Geräten senden können, damit ich Daten problemlos austauschen kann. |
 | 2.1   | 2    | muss             | Als User möchte ich sicherstellen, dass nur autorisierte Geräte auf die gesendeten Dateien zugreifen können, damit meine Daten geschützt sind. |
 | 3.1   | 3    | muss             | Als User möchte ich mehrere Dateien gleichzeitig senden können, damit ich meine Aufgaben effizienter erledigen kann. |
-| 4.1   | 4    | muss             | Als User möchte ich verschiedene Dateitypen (z. B. Bilder, Videos, Dokumente) senden können, um flexibel in der Dateiübertragung zu sein. |
+| 4.1   | 4    | muss             | Als User möchte ich verschiedene Dateitypen (z. B. Bilder, Dokumente) senden können, um flexibel in der Dateiübertragung zu sein. |
 | 5.1   | 5    | muss             | Als User möchte ich eine benutzerfreundliche Oberfläche haben, damit ich Dateien einfach auswählen und senden kann. |
 | 6.1   | 6    | muss             | Als User möchte ich die Möglichkeit haben, Dateien nur an bestimmte Geräte zu senden, damit ich die Kontrolle über den Empfänger behalte. |
 | 7.1   | 7    | muss             | Als User möchte ich gesendete Dateien empfangen und speichern können, um sie später wieder zu verwenden oder zu bearbeiten. |
