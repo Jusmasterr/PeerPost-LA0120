@@ -1,0 +1,14 @@
+C:\Users\LucaJ\source\repos\Peer2Peer\bin\Debug\net8.0\Peer2Peer.exe
+C:\Users\LucaJ\source\repos\Peer2Peer\bin\Debug\net8.0\Peer2Peer.deps.json
+C:\Users\LucaJ\source\repos\Peer2Peer\bin\Debug\net8.0\Peer2Peer.runtimeconfig.json
+C:\Users\LucaJ\source\repos\Peer2Peer\bin\Debug\net8.0\Peer2Peer.dll
+C:\Users\LucaJ\source\repos\Peer2Peer\bin\Debug\net8.0\Peer2Peer.pdb
+C:\Users\LucaJ\source\repos\Peer2Peer\obj\Debug\net8.0\Peer2Peer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LucaJ\source\repos\Peer2Peer\obj\Debug\net8.0\Peer2Peer.AssemblyInfoInputs.cache
+C:\Users\LucaJ\source\repos\Peer2Peer\obj\Debug\net8.0\Peer2Peer.AssemblyInfo.cs
+C:\Users\LucaJ\source\repos\Peer2Peer\obj\Debug\net8.0\Peer2Peer.csproj.CoreCompileInputs.cache
+C:\Users\LucaJ\source\repos\Peer2Peer\obj\Debug\net8.0\Peer2Peer.dll
+C:\Users\LucaJ\source\repos\Peer2Peer\obj\Debug\net8.0\refint\Peer2Peer.dll
+C:\Users\LucaJ\source\repos\Peer2Peer\obj\Debug\net8.0\Peer2Peer.pdb
+C:\Users\LucaJ\source\repos\Peer2Peer\obj\Debug\net8.0\Peer2Peer.genruntimeconfig.cache
+C:\Users\LucaJ\source\repos\Peer2Peer\obj\Debug\net8.0\ref\Peer2Peer.dll
